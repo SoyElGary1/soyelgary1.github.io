@@ -62,7 +62,7 @@ p {
   width: 100%;
   gap: 230px;
   background-color:  #FCE4EC;
-  background-image: url("../src/images/primera.png"), url("../src/images/primera-derecha.png");
+  background-image: url("./images/primera.png"), url("./images/primera-derecha.png");
   background-repeat: no-repeat;
   background-position: left bottom, right bottom;
   background-attachment: fixed;
@@ -77,7 +77,7 @@ p {
   padding-left: 250px;
   padding-right: 250px;
   background-color: #B2EBF2;
-  background-image: url("../src/images/pngwing.com.png"), url("../src/images/segunda.png"), url("../src/images/segunda-derecha.png");
+  background-image: url("./images/pngwing.com.png"), url("./images/segunda.png"), url("./images/segunda-derecha.png");
   background-position: center top, left bottom, right bottom;
   background-repeat: no-repeat;
   background-size: 100% auto , auto, auto; 
@@ -86,7 +86,7 @@ p {
 
 .gatos-container {
   background-color: #FCE4EC;
-  background-image: url("../src/images/gato-iz.png"), url("../src//images/gato-der.png");
+  background-image: url("./images/gato-iz.png"), url("./images/gato-der.png");
   background-position: left bottom, right bottom;
   background-repeat: no-repeat;
   background-size: 24% auto, 25% auto;
