@@ -3,15 +3,15 @@ import { ReactDOM } from "react-dom";
 import ReactPlayer from "react-player";
 import Card from "./components/Card.jsx";
 import ImagenesGatos from "./components/ImagenesGatos.jsx";
-const iconoNav = "./assets/IconCum.svg";
-const mery = "../src/images/mery.jpg";
-const pika = "./images/balon.png";
-const gary = "./images/garyfloppa.jpg";
-const dani = "./images/dani.png";
-const decro = "./images/decro.png";
-const verac = "./images/verac.png";
-const santi = "./images/santi.jpg";
-const ofefa = "./images/ofefa.png";
+import iconoNav from "../src/assets/IconCum.svg";
+import mery from "../src/images/mery.jpg";
+import pika from "../src/images/balon.png";
+import gary from "../src/images/garyfloppa.jpg";
+import dani from "../src/images/dani.png";
+import decro from "../src/images/decro.png";
+import verac from "../src/images/verac.png";
+import santi from "../src/images/santi.jpg";
+import ofefa from "../src/images/ofefa.png";
 
 const mensajes = {
   mery: {
