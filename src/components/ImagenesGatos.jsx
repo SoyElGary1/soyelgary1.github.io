@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "../components/ImagenesGatos.css";
+import "./ImagenesGatos.css";
 const imageUrl = "https://cataas.com/cat/says/Feliz%20Cumpleaños?size=50&color=red";
 
 const ImagenesGatos = () => {

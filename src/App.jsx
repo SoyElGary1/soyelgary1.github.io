@@ -1,8 +1,8 @@
 import "../src/App.css";
 import { ReactDOM } from "react-dom";
 import ReactPlayer from "react-player";
-import Card from "../src/components/Card.jsx";
-import ImagenesGatos from "../src/components/ImagenesGatos.jsx";
+import Card from "./components/Card.jsx";
+import ImagenesGatos from "./components/ImagenesGatos.jsx";
 
 const mensajes = {
   mery: {
@@ -62,7 +62,7 @@ function App() {
           mensaje={mensajes.mery.mensaje}
           nombre={mensajes.mery.nombre}
           idTarjeta={"mery"}
-          urlImagen={"../src/images/mery.jpg"}
+          urlImagen={"./images/mery.jpg"}
           backColor={"#ffff"}
           frontColor={"#FF5733"}
         />
@@ -70,7 +70,7 @@ function App() {
           mensaje={mensajes.pika.mensaje}
           nombre={mensajes.pika.nombre}
           idTarjeta={"pika"}
-          urlImagen={"../src/images/balon.png"}
+          urlImagen={"./images/balon.png"}
           backColor={"#ffff"}
           frontColor={"#FF5733"}
         />
@@ -78,7 +78,7 @@ function App() {
           mensaje={mensajes.gary.mensaje}
           nombre={mensajes.gary.nombre}
           idTarjeta={"gary"}
-          urlImagen={"../src/images/garyfloppa.jpg"}
+          urlImagen={"./images/garyfloppa.jpg"}
           backColor={"#ffff"}
           frontColor={"#FF5733"}
         />
@@ -86,7 +86,7 @@ function App() {
           mensaje={mensajes.dani.mensaje}
           nombre={mensajes.dani.nombre}
           idTarjeta={"dani"}
-          urlImagen={"../src/images/dani.png"}
+          urlImagen={"./images/dani.png"}
           backColor={"#"}
           frontColor={"#33F9FF"}
         />
@@ -127,14 +127,14 @@ function App() {
           }
           nombre={mensajes.decro.nombre}
           idTarjeta={"decro"}
-          urlImagen={"../src/images/decro.png"}
+          urlImagen={"./images/decro.png"}
           backColor={"#ffff"}
           frontColor={"#FF5733"}
         />
         <Card
           mensaje={mensajes.santi.mensaje}
           nombre={mensajes.santi.nombre}
-          urlImagen={"../src/images/santi.jpg"}
+          urlImagen={"./images/santi.jpg"}
           backColor={"#ffff"}
           frontColor={"#FF5733"}
         />
@@ -142,7 +142,7 @@ function App() {
           mensaje={mensajes.ofefa.mensaje}
           nombre={mensajes.ofefa.nombre}
           idTarjeta={"ofefa"}
-          urlImagen={"../src/images/balon.png"}
+          urlImagen={"./images/balon.png"}
           backColor={"#ffff"}
           frontColor={"#FF5733"}
         />
@@ -150,7 +150,7 @@ function App() {
           mensaje={mensajes.verac.mensaje}
           nombre={mensajes.verac.nombre}
           idTarjeta={"verac"}
-          urlImagen={"../src/images/verac.png"}
+          urlImagen={"./images/verac.png"}
           backColor={"#ffff"}
           frontColor={"#FF5733"}
         />
