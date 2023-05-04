@@ -11,8 +11,7 @@ const dani = "./images/dani.png";
 const decro = "./images/decro.png";
 const verac = "./images/verac.png";
 const santi = "./images/santi.jpg";
-const ofefa = "./images/ofefa.png"
-
+const ofefa = "./images/ofefa.png";
 
 const mensajes = {
   mery: {
@@ -44,14 +43,16 @@ const mensajes = {
       "Hola Chiochi, puede que no hablemos hace rato o no muy seguido, pero quería recordarte que eres alguien super especial y a tener en cuenta al momento de tenerte en frente, te deseo lo mejor, tu amigo santi 🤍",
     nombre: "Santi",
   },
-  verac:{
+  verac: {
     nombre: "Verac",
-    mensaje: "Sabias qué hay una chio que está enamorada del gary? Y que la queremos muchooooo y que está de cumpleaños?, y que le deseamos lo mejor del wolrd porque amigaaaaaaa eres lo mejor del world, te quero mucho 🎶chio Alvarado🎶 y gracias por haber estado ahí uwu y perdón por no estar siempre activo (sáquenme de este suplicio llamado universidad) pero espero que la pases súper bien en tu cumple uwu y le mando un abacho Mu grande y que sean muchos añikos más uwu TKM"
+    mensaje:
+      "Sabias qué hay una chio que está enamorada del gary? Y que la queremos muchooooo y que está de cumpleaños?, y que le deseamos lo mejor del wolrd porque amigaaaaaaa eres lo mejor del world, te quero mucho 🎶chio Alvarado🎶 y gracias por haber estado ahí uwu y perdón por no estar siempre activo (sáquenme de este suplicio llamado universidad) pero espero que la pases súper bien en tu cumple uwu y le mando un abacho Mu grande y que sean muchos añikos más uwu TKM",
   },
-  ofefa:{
-    nombre: "Ofefa", 
-    mensaje: "chio preciosa !!! feliz cumpleaños >< ya son 21 añitos, te deseo lo mejor este día y siempre pq te mereces eso y mxo másss 💗 ya son más de 12 años conociéndonos y de vd te considero una amiga la raja 💗 si viviésemos cerca estoy segura que ya hubiésemos salido aún más jeje, desde chiquita eres atenta y suave con tus amigues, eso te hace una persona muy bella 💗 espero que la pases estupendo y vernos en guanaqueros o en cualquier lugar para darte tu regalo y ponernos al día !!! disfruta muchísimo y tqm !!!"
-  }
+  ofefa: {
+    nombre: "Ofefa",
+    mensaje:
+      "chio preciosa !!! feliz cumpleaños >< ya son 21 añitos, te deseo lo mejor este día y siempre pq te mereces eso y mxo másss 💗 ya son más de 12 años conociéndonos y de vd te considero una amiga la raja 💗 si viviésemos cerca estoy segura que ya hubiésemos salido aún más jeje, desde chiquita eres atenta y suave con tus amigues, eso te hace una persona muy bella 💗 espero que la pases estupendo y vernos en guanaqueros o en cualquier lugar para darte tu regalo y ponernos al día !!! disfruta muchísimo y tqm !!!",
+  },
 };
 
 const video = "https://youtu.be/kMTNgzaSME0";
@@ -60,13 +61,13 @@ function App() {
     <>
       <nav className="navbar-container">
         <nav className="navbar">
-          <img src={iconoNav} alt="gatito cumpleañero" />
+          <img src={"./assets/IconCum.svg"} alt="gatito cumpleañero" />
           <a href="#tarjetas"> Tarjetitas</a>
           <a href="#gift">Regalito</a>
           <a href="#cat">Gatitos</a>
         </nav>
       </nav>
-      
+
       <div className="flex-container" id="tarjetas">
         <Card
           mensaje={mensajes.mery.mensaje}
@@ -166,19 +167,12 @@ function App() {
         />
       </div>
       <div className="react-player-container" id="gift">
-          <ReactPlayer
-            url={video}
-            controls
-            
-            width={725}
-            height={480}
-          />
+        <ReactPlayer url={video} controls width={725} height={480} />
       </div>
-      
+
       <div className="gatos-container" id="cat">
-        <ImagenesGatos/>
+        <ImagenesGatos />
       </div>
-      
     </>
   );
 }
