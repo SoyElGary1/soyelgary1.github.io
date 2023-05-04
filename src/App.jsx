@@ -1,4 +1,4 @@
-import "../src/App.css";
+import "./App.css";
 import { ReactDOM } from "react-dom";
 import ReactPlayer from "react-player";
 import Card from "./components/Card.jsx";
