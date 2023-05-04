@@ -55,7 +55,7 @@ const mensajes = {
   },
 };
 
-const video = "https://youtu.be/kMTNgzaSME0";
+const video = "https://youtu.be/-UoXuGl3KEw";
 function App() {
   return (
     <>
