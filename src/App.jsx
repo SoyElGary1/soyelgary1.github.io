@@ -4,7 +4,7 @@ import ReactPlayer from "react-player";
 import Card from "./components/Card.jsx";
 import ImagenesGatos from "./components/ImagenesGatos.jsx";
 const iconoNav = "./assets/IconCum.svg";
-const mery = "./images/mery.jpg";
+const mery = "../src/images/mery.jpg";
 const pika = "./images/balon.png";
 const gary = "./images/garyfloppa.jpg";
 const dani = "./images/dani.png";
