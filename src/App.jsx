@@ -44,7 +44,7 @@ const mensajes = {
   }
 };
 
-const video = "https://www.youtube.com/watch?v=aLTECbvQxXk";
+const video = "https://www.youtube.com/watch?v=M6hBd3Lomvw&t=1096s";
 function App() {
   return (
     <>
@@ -142,7 +142,7 @@ function App() {
           mensaje={mensajes.ofefa.mensaje}
           nombre={mensajes.ofefa.nombre}
           idTarjeta={"ofefa"}
-          urlImagen={"../src/images/chii.png"}
+          urlImagen={"../src/images/balon.png"}
           backColor={"#ffff"}
           frontColor={"#FF5733"}
         />
