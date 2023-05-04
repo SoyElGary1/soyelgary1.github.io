@@ -61,7 +61,7 @@ function App() {
     <>
       <nav className="navbar-container">
         <nav className="navbar">
-          <img src={"./assets/IconCum.svg"} alt="gatito cumpleañero" />
+          <img src={iconoNav} alt="gatito cumpleañero" />
           <a href="#tarjetas"> Tarjetitas</a>
           <a href="#gift">Regalito</a>
           <a href="#cat">Gatitos</a>
