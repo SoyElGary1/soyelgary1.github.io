@@ -3,6 +3,16 @@ import { ReactDOM } from "react-dom";
 import ReactPlayer from "react-player";
 import Card from "./components/Card.jsx";
 import ImagenesGatos from "./components/ImagenesGatos.jsx";
+const iconoNav = "./assets/IconCum.svg";
+const mery = "./images/mery.jpg";
+const pika = "./images/balon.png";
+const gary = "./images/garyfloppa.jpg";
+const dani = "./images/dani.png";
+const decro = "./images/decro.png";
+const verac = "./images/verac.png";
+const santi = "./images/santi.jpg";
+const ofefa = "./images/ofefa.png"
+
 
 const mensajes = {
   mery: {
@@ -44,13 +54,13 @@ const mensajes = {
   }
 };
 
-const video = "https://www.youtube.com/watch?v=M6hBd3Lomvw&t=1096s";
+const video = "https://youtu.be/kMTNgzaSME0";
 function App() {
   return (
     <>
       <nav className="navbar-container">
         <nav className="navbar">
-          <img src="/public/IconCum.svg" alt="gatito cumpleañero" />
+          <img src={iconoNav} alt="gatito cumpleañero" />
           <a href="#tarjetas"> Tarjetitas</a>
           <a href="#gift">Regalito</a>
           <a href="#cat">Gatitos</a>
@@ -62,7 +72,7 @@ function App() {
           mensaje={mensajes.mery.mensaje}
           nombre={mensajes.mery.nombre}
           idTarjeta={"mery"}
-          urlImagen={"./images/mery.jpg"}
+          urlImagen={mery}
           backColor={"#ffff"}
           frontColor={"#FF5733"}
         />
@@ -70,7 +80,7 @@ function App() {
           mensaje={mensajes.pika.mensaje}
           nombre={mensajes.pika.nombre}
           idTarjeta={"pika"}
-          urlImagen={"./images/balon.png"}
+          urlImagen={pika}
           backColor={"#ffff"}
           frontColor={"#FF5733"}
         />
@@ -78,7 +88,7 @@ function App() {
           mensaje={mensajes.gary.mensaje}
           nombre={mensajes.gary.nombre}
           idTarjeta={"gary"}
-          urlImagen={"./images/garyfloppa.jpg"}
+          urlImagen={gary}
           backColor={"#ffff"}
           frontColor={"#FF5733"}
         />
@@ -86,7 +96,7 @@ function App() {
           mensaje={mensajes.dani.mensaje}
           nombre={mensajes.dani.nombre}
           idTarjeta={"dani"}
-          urlImagen={"./images/dani.png"}
+          urlImagen={dani}
           backColor={"#"}
           frontColor={"#33F9FF"}
         />
@@ -127,14 +137,14 @@ function App() {
           }
           nombre={mensajes.decro.nombre}
           idTarjeta={"decro"}
-          urlImagen={"./images/decro.png"}
+          urlImagen={decro}
           backColor={"#ffff"}
           frontColor={"#FF5733"}
         />
         <Card
           mensaje={mensajes.santi.mensaje}
           nombre={mensajes.santi.nombre}
-          urlImagen={"./images/santi.jpg"}
+          urlImagen={santi}
           backColor={"#ffff"}
           frontColor={"#FF5733"}
         />
@@ -142,7 +152,7 @@ function App() {
           mensaje={mensajes.ofefa.mensaje}
           nombre={mensajes.ofefa.nombre}
           idTarjeta={"ofefa"}
-          urlImagen={"./images/balon.png"}
+          urlImagen={ofefa}
           backColor={"#ffff"}
           frontColor={"#FF5733"}
         />
@@ -150,7 +160,7 @@ function App() {
           mensaje={mensajes.verac.mensaje}
           nombre={mensajes.verac.nombre}
           idTarjeta={"verac"}
-          urlImagen={"./images/verac.png"}
+          urlImagen={verac}
           backColor={"#ffff"}
           frontColor={"#FF5733"}
         />
